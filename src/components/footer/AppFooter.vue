@@ -6,7 +6,7 @@
     </div>
 </template>
 <script>
-import AppNavBar from '../header/AppNavBar.vue';
+import AppNavBar from '../header/AppNavbar.vue';
 import { store } from '../../store';
 
 export default {
