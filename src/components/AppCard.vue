@@ -1,7 +1,7 @@
 <template>
     <div class="card">
         <div class="card-body">
-            <img :src="project.image" :alt="project.title">
+            <img :src="'./' + project.image" :alt="project.title">
 
 
             <div v-if="shortText">
