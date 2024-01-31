@@ -1,0 +1,131 @@
+@use './partials/variables' as *;
+
+@import 'bootstrap/scss/bootstrap.scss';
+
+
+$fa-font-path: './webfonts';
+@import '@fortawesome/fontawesome-free/scss/regular.scss';
+@import '@fortawesome/fontawesome-free/scss/solid.scss';
+@import '@fortawesome/fontawesome-free/scss/brands.scss';
+@import '@fortawesome/fontawesome-free/scss/fontawesome.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  color: $color-my-primary;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+header {
+  box-shadow: 1px 6px 15px 6px $my-dark-blue;
+  width: 100%;
+  height: 56px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: $color-my-quaternary;
+  z-index: 100;
+}
+
+footer {
+  height: 20vh;
+  background-color: $my-dark-blue;
+
+  .nav-link {
+    color: $color-my-terciary;
+  }
+}
+
+main {
+  margin-top: 57px;
+}
+
+.my-secondary {
+  color: $color-my-secondary;
+}
+
+.my-logo {
+  width: 55px;
+
+  img {
+    border-radius: 50%;
+  }
+}
+
+.navbar-nav .nav-link.active {
+  color: $color-my-contrast;
+}
+
+.hero {
+  height: 45vh;
+  background-image: url('https://as2.ftcdn.net/v2/jpg/05/87/70/63/1000_F_587706354_EkvX6LkLdcUg1G9E8AC0xAzkHhc8X5Dx.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 20%;
+}
+
+.hero-content {
+  background-color: $color-my-terciary;
+  opacity: 90%;
+}
+
+#projects {
+  img {
+    height: 200px;
+    object-fit: contain;
+  }
+}
+
+// backgrounds
+.my-bg-terciary {
+  background-color: $color-my-terciary;
+}
+
+.my-badge-html {
+  background-color: $my-blue-badge;
+}
+
+.my-badge-css {
+  background-color: $yellow-300;
+}
+
+.my-badge-bootstrap {
+  background-color: $indigo-500;
+}
+
+.my-badge-sass {
+  background-color: $pink-300;
+}
+
+.my-badge-vuejs {
+  background-color: $teal-600;
+}
+
+.my-badge-javascript {
+  background-color: $yellow-400;
+}
+
+.my-badge-php8 {
+  background-color: $blue-300;
+}
+
+.my-badge-sql {
+  background-color: $orange-500;
+}
+
+.my-badge-laravel {
+  background-color: $red;
+}
