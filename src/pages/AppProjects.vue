@@ -113,7 +113,7 @@ export default {
             //     params.params = { type: this.selectedType }
 
             // }
-            fetch('./data/projects.json').then((response) => response.json()).then(json => {
+            fetch('https://burillu.github.io/data/projects.json').then((response) => response.json()).then(json => {
                 console.log(json);
                 this.store.projects = json.results;
 
@@ -154,7 +154,7 @@ export default {
 
         },
         getTypesList() {
-            fetch('./data/types.json').then((response) => response.json()).then(json => {
+            fetch('https://burillu.github.io/data/types.json').then((response) => response.json()).then(json => {
                 console.log(json);
                 this.typesList = json.results;
 
