@@ -20,7 +20,7 @@
             {{ selectTypeValue }} Projects
         </h2>
         <div class="row mb-4">
-            <div class="col-3" v-for="project in store.projects.data">
+            <div class="col-3" v-for="project in store.projects">
 
 
                 <AppCard :project="project" :shortText="true" />
@@ -107,27 +107,27 @@ export default {
 
         },
         getAllProjects() {
-            const params = {};
+            // const params = {};
 
-            if (this.selectedType) {
-                params.params = { type: this.selectedType }
+            // if (this.selectedType) {
+            //     params.params = { type: this.selectedType }
 
-            }
-
-            axios.get(store.apiUrl + "/projects", params).then(res => {
-                console.log(res.data.results)
-                if (res.data.results.data) {
-                    this.store.projects = res.data.results;
-                    this.currPage = res.data.results.current_page;
-                    this.srcNext = res.data.results.next_page_url;
-                } else {
-                    this.store.projects = res.data.results;
-                    // this.currPage = res.data.results.current_page;
-                    // this.srcNext = res.data.results.next_page_url;
-                }
-
+            // }
+            fetch('../../public/data/projects.json').then((response) => response.json()).then(json => {
+                console.log(json);
+                this.store.projects = json.results;
 
             });
+            // axios.get(store.apiUrl + "/projects", params).then(res => {
+            //     console.log(res.data.results)
+            //     if (res.data.results.data) {
+            //         this.store.projects = res.data.results;
+            //         this.currPage = res.data.results.current_page;
+            //         this.srcNext = res.data.results.next_page_url;
+            //     } else {
+            //         this.store.projects = res.data.results;                    
+            //     }
+            //});
         },
         getType() {
 
@@ -154,10 +154,16 @@ export default {
 
         },
         getTypesList() {
-            axios.get(store.apiUrl + '/types').then(res => {
-                //console.log(res.data.results);
-                this.typesList = res.data.results;
+            fetch('../../public/data/types.json').then((response) => response.json()).then(json => {
+                console.log(json);
+                this.typesList = json.results;
+
             });
+
+            // axios.get(store.apiUrl + '/types').then(res => {
+            //     //console.log(res.data.results);
+            //     this.typesList = res.data.results;
+            // });
             //return types
         },
 

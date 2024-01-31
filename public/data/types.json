@@ -1,0 +1,26 @@
+{
+    "success": true,
+    "results": [
+        {
+            "id": 1,
+            "name": "Front-end",
+            "slug": "front-end",
+            "created_at": "2024-01-16T11:16:50.000000Z",
+            "updated_at": "2024-01-16T11:16:50.000000Z"
+        },
+        {
+            "id": 2,
+            "name": "Back-end",
+            "slug": "back-end",
+            "created_at": "2024-01-16T11:16:50.000000Z",
+            "updated_at": "2024-01-16T11:16:50.000000Z"
+        },
+        {
+            "id": 3,
+            "name": "Full-Stack",
+            "slug": "full-stack",
+            "created_at": "2024-01-16T11:16:50.000000Z",
+            "updated_at": "2024-01-16T11:16:50.000000Z"
+        }
+    ]
+}
