@@ -19,8 +19,8 @@
         <h2 class="text-center">
             {{ selectTypeValue }} Projects
         </h2>
-        <div class="row mb-4">
-            <div class="col-3" v-for="project in store.projects">
+        <div class="row g-2 mb-4">
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3 " v-for="project in store.projects">
 
 
                 <AppCard :project="project" :shortText="true" />
