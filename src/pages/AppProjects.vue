@@ -29,7 +29,7 @@
 
             </div>
         </div>
-        <div class="d-flex justify-content-between">
+        <!-- <div class="d-flex justify-content-between">
             <div class="col-auto">
                 <button class="btn btn-primary" @click="prevPage">Prev</button>
 
@@ -40,7 +40,7 @@
             <div class="col-auto">
                 <button class="btn btn-success" @click="nextPage">Next</button>
             </div>
-        </div>
+        </div> -->
 
     </div>
 </template>

@@ -4,17 +4,22 @@
 
             <div class="row justify-content-between">
                 <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
-                    <h2> Web Developer Full Stack </h2>
-                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident veritatis laboriosam reiciendis!
-                        Vel
-                        dolorum quam quod culpa! Eaque odit fugiat repellendus omnis natus modi saepe, unde itaque? Tempora
-                        debitis dolorum ab eius? Dolor, nihil? Totam autem consectetur cumque suscipit quisquam voluptatum,
-                        placeat, dicta beatae eligendi minus sed in, animi fugit saepe! Dignissimos, et. Deleniti maxime
-                        fuga ea
-                        sint accusamus dolorem esse numquam nostrum explicabo sapiente voluptatem dolorum, harum velit sed
-                        in
-                        facilis doloribus. Id aperiam vitae doloribus architecto, atque et omnis alias quis ratione? Ipsum
-                        accusantium, quos dicta vero, molestias ad commodi fugit est delectus ut voluptate atque? Error?</p>
+                    <h2 class="my-color-jolly">Jr. Web Developer Full Stack </h2>
+                    <p>
+                        L'esperienza con cui ho acquisito questa qualifica, è stato un corso di formazione professionale
+                        effettuato in
+                        <a target="_blank" class="text-primary"
+                            href="https://boolean.careers/corso/full-stack-web-development">Boolean.careers</a>,
+                        che mi ha
+                        dato la possibilità di conoscere la programmazione web in prima persona, fino a poco tempo prima
+                        conosciuta per passione e attraverso una nota piattaforma di e-learning.
+                        Fin dai primi giorni è stata un <span class="my-color-jolly fw-bold">immersione</span> diretta nel
+                        codice e questo ha fatto sì che venissero
+                        apprese, gradualmente le tecnologie base lato <span class="my-color-jolly fw-bold">frontend</span>,
+                        e lato <span class="my-color-jolly fw-bold">backend</span>, fino allo sviluppo di interi
+                        progetti in autonomia e in team, senza escludere l’applicazione di sistemi per il controllo della
+                        versione, utilizzati fin dal primo progetto.
+                    </p>
                 </div>
                 <div class="col-12 col-md-5">
                     <div class="row">
