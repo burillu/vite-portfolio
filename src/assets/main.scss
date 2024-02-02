@@ -89,6 +89,19 @@ main {
   }
 }
 
+.my-img-link {
+  width: 150px;
+
+}
+
+.my-avatar {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  overflow: hidden;
+  border: 5px solid $my-jolly-color;
+}
+
 // backgrounds
 .my-bg-terciary {
   background-color: $color-my-terciary;
@@ -96,6 +109,10 @@ main {
 
 .my-bg-quaternary {
   background-color: $color-my-quaternary;
+}
+
+.my-bg-jolly {
+  background-color: $my-jolly-color;
 }
 
 .my-badge-html {

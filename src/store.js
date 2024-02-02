@@ -326,320 +326,341 @@ export const store = reactive({
                 }
             ]
         },
+        // {
+        //     id: 12,
+        //     title: "tua sorella laravel",
+        //     user_id: 1,
+        //     type_id: 1,
+        //     image: "images\/la1lcBoTe9K3JRQ3hljVJXvj8Y3kYPKPECQpd1vO.png",
+        //     slug: "tua-sorella-laravel",
+        //     body: "Milestone 1\r\ntua sorella\r\nMilestone 2\r\nLaravel",
+        //     created_at: "2024-01-16T16:56:53.000000Z",
+        //     updated_at: "2024-01-16T16:56:53.000000Z",
+        //     type: {
+        //         id: 1,
+        //         name: "Front-end",
+        //         slug: "front-end",
+        //         created_at: "2024-01-16T11:16:50.000000Z",
+        //         updated_at: "2024-01-16T11:16:50.000000Z"
+        //     },
+        //     technologies: [
+        //         {
+        //             id: 3,
+        //             name: "Bootstrap",
+        //             slug: "bootstrap",
+        //             created_at: "2024-01-17T09:10:52.000000Z",
+        //             updated_at: "2024-01-17T09:10:52.000000Z",
+        //             pivot: {
+        //                 project: 12,
+        //                 technology: 3,
+        //                 created_at: null,
+        //                 updated_at: null
+        //             }
+        //         },
+        //         {
+        //             id: 5,
+        //             name: "JavaScript",
+        //             slug: "javascript",
+        //             created_at: "2024-01-17T09:10:52.000000Z",
+        //             updated_at: "2024-01-17T09:10:52.000000Z",
+        //             pivot: {
+        //                 project: 12,
+        //                 technology: 5,
+        //                 created_at: null,
+        //                 updated_at: null
+        //             }
+        //         },
+        //         {
+        //             id: 6,
+        //             name: "Vue.js",
+        //             slug: "vuejs",
+        //             created_at: "2024-01-17T09:10:52.000000Z",
+        //             updated_at: "2024-01-17T09:10:52.000000Z",
+        //             pivot: {
+        //                 project: 12,
+        //                 technology: 6,
+        //                 created_at: null,
+        //                 updated_at: null
+        //             }
+        //         },
+        //         {
+        //             id: 8,
+        //             name: "SQL",
+        //             slug: "sql",
+        //             created_at: "2024-01-17T09:10:52.000000Z",
+        //             updated_at: "2024-01-17T09:10:52.000000Z",
+        //             pivot: {
+        //                 project: 12,
+        //                 technology: 8,
+        //                 created_at: null,
+        //                 updated_at: null
+        //             }
+        //         },
+        //         {
+        //             id: 9,
+        //             name: "Laravel",
+        //             slug: "laravel",
+        //             created_at: "2024-01-17T09:10:52.000000Z",
+        //             updated_at: "2024-01-17T09:10:52.000000Z",
+        //             pivot: {
+        //                 project: 12,
+        //                 technology: 9,
+        //                 created_at: null,
+        //                 updated_at: null
+        //             }
+        //         }
+        //     ]
+        // },
+        // {
+        //     id: 13,
+        //     title: "tua cugina javascript",
+        //     user_id: 1,
+        //     type_id: 1,
+        //     image: "images\/O4zd8wi2s6EgCoa2Ycg3Cbz3qfdF5DWaMbBUUhBM.png",
+        //     slug: "tua-cugina-javascript",
+        //     body: "Milestone1\r\ntua cugina\r\nMilestone 2\r\njavascript",
+        //     created_at: "2024-01-16T16:57:48.000000Z",
+        //     updated_at: "2024-01-16T16:57:48.000000Z",
+        //     type: {
+        //         id: 1,
+        //         name: "Front-end",
+        //         slug: "front-end",
+        //         created_at: "2024-01-16T11:16:50.000000Z",
+        //         updated_at: "2024-01-16T11:16:50.000000Z"
+        //     },
+        //     technologies: [
+        //         {
+        //             id: 1,
+        //             name: "HTML",
+        //             slug: "html",
+        //             created_at: "2024-01-17T09:10:52.000000Z",
+        //             updated_at: "2024-01-17T09:10:52.000000Z",
+        //             pivot: {
+        //                 project: 13,
+        //                 technology: 1,
+        //                 created_at: null,
+        //                 updated_at: null
+        //             }
+        //         },
+        //         {
+        //             id: 2,
+        //             name: "CSS",
+        //             slug: "css",
+        //             created_at: "2024-01-17T09:10:52.000000Z",
+        //             updated_at: "2024-01-17T09:10:52.000000Z",
+        //             pivot: {
+        //                 project: 13,
+        //                 technology: 2,
+        //                 created_at: null,
+        //                 updated_at: null
+        //             }
+        //         },
+        //         {
+        //             id: 5,
+        //             name: "JavaScript",
+        //             slug: "javascript",
+        //             created_at: "2024-01-17T09:10:52.000000Z",
+        //             updated_at: "2024-01-17T09:10:52.000000Z",
+        //             pivot: {
+        //                 project: 13,
+        //                 technology: 5,
+        //                 created_at: null,
+        //                 updated_at: null
+        //             }
+        //         }
+        //     ]
+        // },
+        // {
+        //     id: 14,
+        //     title: "laravel-many-to-many",
+        //     user_id: 1,
+        //     type_id: 2,
+        //     image: "images\/jPFti4EpSY4sRZ4DsiwZ167qgQbBIcZR8uJCwfck.png",
+        //     slug: "laravel-many-to-many",
+        //     body: "giogiogiogigoidfkdsdofkapmVasdfasds",
+        //     created_at: "2024-01-17T13:45:19.000000Z",
+        //     updated_at: "2024-01-17T13:45:19.000000Z",
+        //     type: {
+        //         id: 2,
+        //         name: "Back-end",
+        //         slug: "back-end",
+        //         created_at: "2024-01-16T11:16:50.000000Z",
+        //         updated_at: "2024-01-16T11:16:50.000000Z"
+        //     },
+        //     technologies: [
+        //         {
+        //             id: 1,
+        //             name: "HTML",
+        //             slug: "html",
+        //             created_at: "2024-01-17T09:10:52.000000Z",
+        //             updated_at: "2024-01-17T09:10:52.000000Z",
+        //             pivot: {
+        //                 project: 14,
+        //                 technology: 1,
+        //                 created_at: null,
+        //                 updated_at: null
+        //             }
+        //         },
+        //         {
+        //             id: 3,
+        //             name: "Bootstrap",
+        //             slug: "bootstrap",
+        //             created_at: "2024-01-17T09:10:52.000000Z",
+        //             updated_at: "2024-01-17T09:10:52.000000Z",
+        //             pivot: {
+        //                 project: 14,
+        //                 technology: 3,
+        //                 created_at: null,
+        //                 updated_at: null
+        //             }
+        //         },
+        //         {
+        //             id: 4,
+        //             name: "SASS",
+        //             slug: "sass",
+        //             created_at: "2024-01-17T09:10:52.000000Z",
+        //             updated_at: "2024-01-17T09:10:52.000000Z",
+        //             pivot: {
+        //                 project: 14,
+        //                 technology: 4,
+        //                 created_at: null,
+        //                 updated_at: null
+        //             }
+        //         },
+        //         {
+        //             id: 5,
+        //             name: "JavaScript",
+        //             slug: "javascript",
+        //             created_at: "2024-01-17T09:10:52.000000Z",
+        //             updated_at: "2024-01-17T09:10:52.000000Z",
+        //             pivot: {
+        //                 project: 14,
+        //                 technology: 5,
+        //                 created_at: null,
+        //                 updated_at: null
+        //             }
+        //         },
+        //         {
+        //             id: 7,
+        //             name: "PHP8",
+        //             slug: "php8",
+        //             created_at: "2024-01-17T09:10:52.000000Z",
+        //             updated_at: "2024-01-17T09:10:52.000000Z",
+        //             pivot: {
+        //                 project: 14,
+        //                 technology: 7,
+        //                 created_at: null,
+        //                 updated_at: null
+        //             }
+        //         },
+        //         {
+        //             id: 9,
+        //             name: "Laravel",
+        //             slug: "laravel",
+        //             created_at: "2024-01-17T09:10:52.000000Z",
+        //             updated_at: "2024-01-17T09:10:52.000000Z",
+        //             pivot: {
+        //                 project: 14,
+        //                 technology: 9,
+        //                 created_at: null,
+        //                 updated_at: null
+        //             }
+        //         }
+        //     ]
+        // },
+        // {
+        //     id: 15,
+        //     title: "laravel-one-to-many",
+        //     user_id: 1,
+        //     type_id: 2,
+        //     image: "images\/NNwuywr8QPXbf91TGSSUvO1IkiU24zCHEmmYwVsM.png",
+        //     slug: "laravel-one-to-many",
+        //     body: "rere rereradadf\u0107 Nik\u0161i\u0107",
+        //     created_at: "2024-01-17T13:58:10.000000Z",
+        //     updated_at: "2024-01-17T13:58:10.000000Z",
+        //     type: {
+        //         id: 2,
+        //         name: "Back-end",
+        //         slug: "back-end",
+        //         created_at: "2024-01-16T11:16:50.000000Z",
+        //         updated_at: "2024-01-16T11:16:50.000000Z"
+        //     },
+        //     technologies: [
+        //         {
+        //             id: 3,
+        //             name: "Bootstrap",
+        //             slug: "bootstrap",
+        //             created_at: "2024-01-17T09:10:52.000000Z",
+        //             updated_at: "2024-01-17T09:10:52.000000Z",
+        //             pivot: {
+        //                 project: 15,
+        //                 technology: 3,
+        //                 created_at: null,
+        //                 updated_at: null
+        //             }
+        //         },
+        //         {
+        //             id: 4,
+        //             name: "SASS",
+        //             slug: "sass",
+        //             created_at: "2024-01-17T09:10:52.000000Z",
+        //             updated_at: "2024-01-17T09:10:52.000000Z",
+        //             pivot: {
+        //                 project: 15,
+        //                 technology: 4,
+        //                 created_at: null,
+        //                 updated_at: null
+        //             }
+        //         },
+        //         {
+        //             id: 5,
+        //             name: "JavaScript",
+        //             slug: "javascript",
+        //             created_at: "2024-01-17T09:10:52.000000Z",
+        //             updated_at: "2024-01-17T09:10:52.000000Z",
+        //             pivot: {
+        //                 project: 15,
+        //                 technology: 5,
+        //                 created_at: null,
+        //                 updated_at: null
+        //             }
+        //         },
+        //         {
+        //             id: 9,
+        //             name: "Laravel",
+        //             slug: "laravel",
+        //             created_at: "2024-01-17T09:10:52.000000Z",
+        //             updated_at: "2024-01-17T09:10:52.000000Z",
+        //             pivot: {
+        //                 project: 15,
+        //                 technology: 9,
+        //                 created_at: null,
+        //                 updated_at: null
+        //             }
+        //         }
+        //     ]
+        // }
+    ],
+    contactLinks: [
         {
-            id: 12,
-            title: "tua sorella laravel",
-            user_id: 1,
-            type_id: 1,
-            image: "images\/la1lcBoTe9K3JRQ3hljVJXvj8Y3kYPKPECQpd1vO.png",
-            slug: "tua-sorella-laravel",
-            body: "Milestone 1\r\ntua sorella\r\nMilestone 2\r\nLaravel",
-            created_at: "2024-01-16T16:56:53.000000Z",
-            updated_at: "2024-01-16T16:56:53.000000Z",
-            type: {
-                id: 1,
-                name: "Front-end",
-                slug: "front-end",
-                created_at: "2024-01-16T11:16:50.000000Z",
-                updated_at: "2024-01-16T11:16:50.000000Z"
-            },
-            technologies: [
-                {
-                    id: 3,
-                    name: "Bootstrap",
-                    slug: "bootstrap",
-                    created_at: "2024-01-17T09:10:52.000000Z",
-                    updated_at: "2024-01-17T09:10:52.000000Z",
-                    pivot: {
-                        project: 12,
-                        technology: 3,
-                        created_at: null,
-                        updated_at: null
-                    }
-                },
-                {
-                    id: 5,
-                    name: "JavaScript",
-                    slug: "javascript",
-                    created_at: "2024-01-17T09:10:52.000000Z",
-                    updated_at: "2024-01-17T09:10:52.000000Z",
-                    pivot: {
-                        project: 12,
-                        technology: 5,
-                        created_at: null,
-                        updated_at: null
-                    }
-                },
-                {
-                    id: 6,
-                    name: "Vue.js",
-                    slug: "vuejs",
-                    created_at: "2024-01-17T09:10:52.000000Z",
-                    updated_at: "2024-01-17T09:10:52.000000Z",
-                    pivot: {
-                        project: 12,
-                        technology: 6,
-                        created_at: null,
-                        updated_at: null
-                    }
-                },
-                {
-                    id: 8,
-                    name: "SQL",
-                    slug: "sql",
-                    created_at: "2024-01-17T09:10:52.000000Z",
-                    updated_at: "2024-01-17T09:10:52.000000Z",
-                    pivot: {
-                        project: 12,
-                        technology: 8,
-                        created_at: null,
-                        updated_at: null
-                    }
-                },
-                {
-                    id: 9,
-                    name: "Laravel",
-                    slug: "laravel",
-                    created_at: "2024-01-17T09:10:52.000000Z",
-                    updated_at: "2024-01-17T09:10:52.000000Z",
-                    pivot: {
-                        project: 12,
-                        technology: 9,
-                        created_at: null,
-                        updated_at: null
-                    }
-                }
-            ]
+            title: 'Linked-in',
+            srcLogo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/480px-LinkedIn_logo_initials.png',
+            href: 'https://linkedin.com/in/michele-ebau-55ba002b1',
+            description: 'Guarda il mio profilo Linked-in per approfondire.',
         },
         {
-            id: 13,
-            title: "tua cugina javascript",
-            user_id: 1,
-            type_id: 1,
-            image: "images\/O4zd8wi2s6EgCoa2Ycg3Cbz3qfdF5DWaMbBUUhBM.png",
-            slug: "tua-cugina-javascript",
-            body: "Milestone1\r\ntua cugina\r\nMilestone 2\r\njavascript",
-            created_at: "2024-01-16T16:57:48.000000Z",
-            updated_at: "2024-01-16T16:57:48.000000Z",
-            type: {
-                id: 1,
-                name: "Front-end",
-                slug: "front-end",
-                created_at: "2024-01-16T11:16:50.000000Z",
-                updated_at: "2024-01-16T11:16:50.000000Z"
-            },
-            technologies: [
-                {
-                    id: 1,
-                    name: "HTML",
-                    slug: "html",
-                    created_at: "2024-01-17T09:10:52.000000Z",
-                    updated_at: "2024-01-17T09:10:52.000000Z",
-                    pivot: {
-                        project: 13,
-                        technology: 1,
-                        created_at: null,
-                        updated_at: null
-                    }
-                },
-                {
-                    id: 2,
-                    name: "CSS",
-                    slug: "css",
-                    created_at: "2024-01-17T09:10:52.000000Z",
-                    updated_at: "2024-01-17T09:10:52.000000Z",
-                    pivot: {
-                        project: 13,
-                        technology: 2,
-                        created_at: null,
-                        updated_at: null
-                    }
-                },
-                {
-                    id: 5,
-                    name: "JavaScript",
-                    slug: "javascript",
-                    created_at: "2024-01-17T09:10:52.000000Z",
-                    updated_at: "2024-01-17T09:10:52.000000Z",
-                    pivot: {
-                        project: 13,
-                        technology: 5,
-                        created_at: null,
-                        updated_at: null
-                    }
-                }
-            ]
+            title: 'GitHub',
+            srcLogo: 'https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png',
+            href: 'https://github.com/burillu',
+            description: 'Guarda il mio profilo GitHub per vedere il mio codice, altri progetti fatti durante il corso di formazione con Boolean e durante il tempo libero.',
         },
         {
-            id: 14,
-            title: "laravel-many-to-many",
-            user_id: 1,
-            type_id: 2,
-            image: "images\/jPFti4EpSY4sRZ4DsiwZ167qgQbBIcZR8uJCwfck.png",
-            slug: "laravel-many-to-many",
-            body: "giogiogiogigoidfkdsdofkapmVasdfasds",
-            created_at: "2024-01-17T13:45:19.000000Z",
-            updated_at: "2024-01-17T13:45:19.000000Z",
-            type: {
-                id: 2,
-                name: "Back-end",
-                slug: "back-end",
-                created_at: "2024-01-16T11:16:50.000000Z",
-                updated_at: "2024-01-16T11:16:50.000000Z"
-            },
-            technologies: [
-                {
-                    id: 1,
-                    name: "HTML",
-                    slug: "html",
-                    created_at: "2024-01-17T09:10:52.000000Z",
-                    updated_at: "2024-01-17T09:10:52.000000Z",
-                    pivot: {
-                        project: 14,
-                        technology: 1,
-                        created_at: null,
-                        updated_at: null
-                    }
-                },
-                {
-                    id: 3,
-                    name: "Bootstrap",
-                    slug: "bootstrap",
-                    created_at: "2024-01-17T09:10:52.000000Z",
-                    updated_at: "2024-01-17T09:10:52.000000Z",
-                    pivot: {
-                        project: 14,
-                        technology: 3,
-                        created_at: null,
-                        updated_at: null
-                    }
-                },
-                {
-                    id: 4,
-                    name: "SASS",
-                    slug: "sass",
-                    created_at: "2024-01-17T09:10:52.000000Z",
-                    updated_at: "2024-01-17T09:10:52.000000Z",
-                    pivot: {
-                        project: 14,
-                        technology: 4,
-                        created_at: null,
-                        updated_at: null
-                    }
-                },
-                {
-                    id: 5,
-                    name: "JavaScript",
-                    slug: "javascript",
-                    created_at: "2024-01-17T09:10:52.000000Z",
-                    updated_at: "2024-01-17T09:10:52.000000Z",
-                    pivot: {
-                        project: 14,
-                        technology: 5,
-                        created_at: null,
-                        updated_at: null
-                    }
-                },
-                {
-                    id: 7,
-                    name: "PHP8",
-                    slug: "php8",
-                    created_at: "2024-01-17T09:10:52.000000Z",
-                    updated_at: "2024-01-17T09:10:52.000000Z",
-                    pivot: {
-                        project: 14,
-                        technology: 7,
-                        created_at: null,
-                        updated_at: null
-                    }
-                },
-                {
-                    id: 9,
-                    name: "Laravel",
-                    slug: "laravel",
-                    created_at: "2024-01-17T09:10:52.000000Z",
-                    updated_at: "2024-01-17T09:10:52.000000Z",
-                    pivot: {
-                        project: 14,
-                        technology: 9,
-                        created_at: null,
-                        updated_at: null
-                    }
-                }
-            ]
-        },
-        {
-            id: 15,
-            title: "laravel-one-to-many",
-            user_id: 1,
-            type_id: 2,
-            image: "images\/NNwuywr8QPXbf91TGSSUvO1IkiU24zCHEmmYwVsM.png",
-            slug: "laravel-one-to-many",
-            body: "rere rereradadf\u0107 Nik\u0161i\u0107",
-            created_at: "2024-01-17T13:58:10.000000Z",
-            updated_at: "2024-01-17T13:58:10.000000Z",
-            type: {
-                id: 2,
-                name: "Back-end",
-                slug: "back-end",
-                created_at: "2024-01-16T11:16:50.000000Z",
-                updated_at: "2024-01-16T11:16:50.000000Z"
-            },
-            technologies: [
-                {
-                    id: 3,
-                    name: "Bootstrap",
-                    slug: "bootstrap",
-                    created_at: "2024-01-17T09:10:52.000000Z",
-                    updated_at: "2024-01-17T09:10:52.000000Z",
-                    pivot: {
-                        project: 15,
-                        technology: 3,
-                        created_at: null,
-                        updated_at: null
-                    }
-                },
-                {
-                    id: 4,
-                    name: "SASS",
-                    slug: "sass",
-                    created_at: "2024-01-17T09:10:52.000000Z",
-                    updated_at: "2024-01-17T09:10:52.000000Z",
-                    pivot: {
-                        project: 15,
-                        technology: 4,
-                        created_at: null,
-                        updated_at: null
-                    }
-                },
-                {
-                    id: 5,
-                    name: "JavaScript",
-                    slug: "javascript",
-                    created_at: "2024-01-17T09:10:52.000000Z",
-                    updated_at: "2024-01-17T09:10:52.000000Z",
-                    pivot: {
-                        project: 15,
-                        technology: 5,
-                        created_at: null,
-                        updated_at: null
-                    }
-                },
-                {
-                    id: 9,
-                    name: "Laravel",
-                    slug: "laravel",
-                    created_at: "2024-01-17T09:10:52.000000Z",
-                    updated_at: "2024-01-17T09:10:52.000000Z",
-                    pivot: {
-                        project: 15,
-                        technology: 9,
-                        created_at: null,
-                        updated_at: null
-                    }
-                }
-            ]
+            title: 'Boolean',
+            srcLogo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOYEAsfh4FaGWUZiN8sMvIsUW4r-XJXWhx65_vK7zzSw&s',
+            description: 'Se vuoi vedere la valutazione del mio percorso formativo in Boolean.careers, segui questo link',
+            href: 'https://hiringplatform.boolean.careers/registrati',
         }
+
     ],
     navBarHeader: {
         classText: 'my-text-secondary',

@@ -1,12 +1,19 @@
 <template>
     <AppHero :pageTitle="title" />
-    <div class="container">
+    <div class="container ">
         <h1 class="text-center">{{ title }}</h1>
-        <AppContactForm />
+
+        <div class="my-avatar rounded-circle mb-5">
+            <img :src="'./images/MichelEbau.jpg'" alt="michelebau">
+        </div>
+
+
+        <AppContactsLink />
     </div>
 </template>
 <script>
-import AppContactForm from '@/components/main/AppContactForm.vue';
+
+import AppContactsLink from '@/components/main/AppContactsLink.vue';
 import AppHero from '@/components/main/AppHero.vue';
 
 
@@ -19,7 +26,7 @@ export default {
 
         };
     },
-    components: { AppContactForm, AppHero }
+    components: { AppHero, AppContactsLink }
 }
 </script>
 <style></style>
