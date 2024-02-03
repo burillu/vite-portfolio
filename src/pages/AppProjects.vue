@@ -6,7 +6,7 @@
                 <label class="select-label" for="type">
                     Select Project Type:
                 </label>
-                <select id="type" class="form-select" @change="getType()" v-model="selectedType" name="type">
+                <select id="type" class="form-select" @change="filterByType()" v-model="selectedType" name="type">
                     <option selected value="">All</option>
                     <option v-for="item in typesList" :value="item.id">
                         {{ item.name }}
@@ -20,7 +20,7 @@
             {{ selectTypeValue }} Projects
         </h2>
         <div class="row g-2 mb-4">
-            <div class="col-12 col-md-6 col-lg-4 col-xl-3 " v-for="project in store.projects">
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3 " v-for="project in projects">
 
 
                 <AppCard :project="project" :shortText="true" />
@@ -80,8 +80,10 @@ export default {
                     updated_at: "2024-01-16T11:16:50.000000Z"
                 }
             ],
+            projects: store.projects,
             selectedType: null,
-            selectTypeValue: 'All'
+            selectTypeValue: 'All',
+            noProjects: false
 
         };
     },
@@ -193,35 +195,42 @@ export default {
             //axios.get(store.apiUrl+)
             //console.log(store.projects);
 
+            this.projects = store.projects;
+            if (!this.selectedType) {
+                return
+            }
+            const resultFilter = this.projects.filter(el => {
+                return el.type.id == this.selectedType;
+            });
+            if (!resultFilter) {
+                this.noProjects = true;
+            }
+            this.projects = resultFilter;
 
-            const resultFilter = store.projects.data.filter(el => {
-                //console.log(el);
-
-                el.type == this.selectedType
-            })
-            //console.log(resultFilter)
-            return resultFilter
         }
     },
-    //computed: {
-    // filterByType() {
-    //     //axios.get(store.apiUrl+)
-    //     console.log(store.projects);
+    computed: {
+        // getProjects() {
+        //     this.projects = store.projects
+        // }
+        // filterByType() {
+        //     //axios.get(store.apiUrl+)
+        //     console.log(store.projects);
 
 
-    //     const resultFilter = store.projects.data.filter(el => {
-    //         //console.log(el);
+        //     const resultFilter = store.projects.data.filter(el => {
+        //         //console.log(el);
 
-    //         el.type == this.selectedType
-    //     })
-    //     console.log(resultFilter)
-    //     return resultFilter
-    // }
-    //},
+        //         el.type == this.selectedType
+        //     })
+        //     console.log(resultFilter)
+        //     return resultFilter
+        // }
+    },
     mounted() {
         //this.getAllProjects();
         //this.getTypesList();
-        //console.log(store.projects);
+        console.log(this.projects);
     },
     components: { AppCard, AppHero }
 }

@@ -13,8 +13,8 @@
 <script>
 import axios from "axios";
 import { store } from "../store";
-import AppCard from "@/components/AppCard.vue";
-import AppHero from "@/components/main/AppHero.vue";
+import AppCard from "../components/AppCard.vue";
+import AppHero from "../components/main/AppHero.vue";
 export default {
     watch: {
         // '$route.params.slug': function (newSlug, oldSlug) {
