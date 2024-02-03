@@ -6,7 +6,7 @@
                 <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
                     <h2 class="my-color-jolly">Jr. Web Developer Full Stack </h2>
                     <p>
-                        L'esperienza con cui ho acquisito questa qualifica, è stato un corso di formazione professionale
+                        Ho acquisito questa qualifica, grazie ad un corso di formazione professionale
                         effettuato in
                         <a target="_blank" class="text-primary"
                             href="https://boolean.careers/corso/full-stack-web-development">Boolean.careers</a>,
