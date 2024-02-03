@@ -17,7 +17,9 @@
                 <div class="mb-3">
                     <h5>Type: {{ project.type.name }}</h5>
                 </div>
-                <pre class="mb-3">{{ project.body }}</pre>
+                <a class="btn btn-dark mb-5" :href="store.gitHub + project.title" target="_blank">GitHub</a>
+                <h6> Descrizione: </h6>
+                <p class="mb-3">{{ project.body }}</p>
 
             </div>
 

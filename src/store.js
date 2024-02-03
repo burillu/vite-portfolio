@@ -1,13 +1,15 @@
 import { reactive } from "vue";
 
 export const store = reactive({
-    message: 'tu sorella',
+
     apiUrl: 'http://127.0.0.1:8000/api',
     imgUrl: 'http://127.0.0.1:8000/storage/',
+    gitHub: 'https://github.com/burillu/',
     projects: [
         {
             id: 1,
             title: "laravel-comics-2",
+            gitHub: '',
             user_id: 1,
             type_id: 2,
             image: "images\/XW5hGO4os2XnS0KLAltCJ29lZxhad85dyY4EWYg0.png",
@@ -80,6 +82,7 @@ export const store = reactive({
         {
             id: 2,
             title: "vite-boolfix",
+            gitHub: '',
             user_id: 1,
             type_id: 1,
             image: "images\/Lhk5XBj6JpbJy6uQldJFVGEqOwpTOzf5goMMtcp1.png",
@@ -139,6 +142,7 @@ export const store = reactive({
         {
             id: 3,
             title: "proj-html-vuejs",
+            gitHub: '',
             user_id: 1,
             type_id: 1,
             image: "images\/D8ArRHvLIfDtmqlz5POBWaJ6gZTpNWTRuPqJdTJh.jpg",
@@ -198,6 +202,7 @@ export const store = reactive({
         {
             id: 4,
             title: "vue-boolzapp",
+            gitHub: '',
             user_id: 1,
             type_id: 1,
             image: "images\/8YWdCpUnZi4viusBWVJet2sJVjr1za6MEhZpDsvV.png",
@@ -270,6 +275,7 @@ export const store = reactive({
         {
             id: 5,
             title: "html-css-bootstrap-dashboard",
+            gitHub: '',
             user_id: 1,
             type_id: 1,
             image: "images\/jDhWT3A2Rwra3owaFdWjl10YNVLIlRO2oeSxVFfY.png",
